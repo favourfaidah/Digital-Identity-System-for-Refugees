@@ -5,6 +5,11 @@ authors = []
 telemetry = true
 cache_dir = './.cache'
 requirements = []
+[contracts.education-records]
+path = 'contracts/education-records.clar'
+clarity_version = 2
+epoch = 2.5
+
 [contracts.service-authorization]
 path = 'contracts/service-authorization.clar'
 clarity_version = 2
